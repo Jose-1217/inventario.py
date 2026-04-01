@@ -17,7 +17,7 @@ def agregar_producto ():
         except ValueError:
             # Si el usuario puso letras, se ejecuta esto:
             print("Error: Debes digitar un numero para el precio.")
-    #Hacemos lo mismo para la cantida
+    #Hacemos lo mismo para la cantidad
     cantidad_valida = False
     while cantidad_valida == False:
         try:
